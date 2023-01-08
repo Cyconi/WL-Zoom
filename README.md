@@ -1,5 +1,4 @@
 # WL Zoom
-Info
 - Basic Zoom Mod For WorldLoader
 - Allows dynamic zooming
 - Max Fov of 140
