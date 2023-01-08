@@ -22,6 +22,7 @@ namespace Zoom
         {
             classInst = this;
             harmInst = harmonyInstance;
+
             Console.WriteLine("");
             Con.Log("[=========================-  Zoom  -==========================]");
             Con.Log("[========================= KeyBinds ==========================]");
