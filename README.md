@@ -8,6 +8,6 @@
 - Reset Zoom   =   Middle Mouse
 - Zoom In / Out   =   Scroll Wheel 
 <div align="center">
-<img src="https://zowie.benq.eu/content/dam/game/EN-US/knowledge/mouse/1-1.jpg" align="center" style="width: 100%" />
+<img src="https://zowie.benq.eu/content/dam/game/EN-US/knowledge/mouse/1-1.jpg" align="center" style="width: 25%" />
 </div>  
 
