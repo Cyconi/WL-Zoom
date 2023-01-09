@@ -7,3 +7,4 @@
 - Zoom Camera   =   Mouse5 (Top Side Mouse)
 - Reset Zoom   =   Middle Mouse
 - Zoom In / Out   =   Scroll Wheel 
+https://zowie.benq.eu/content/dam/game/EN-US/knowledge/mouse/1-1.jpg
