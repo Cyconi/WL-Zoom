@@ -10,7 +10,7 @@ using WorldLoader.Mods;
 
 namespace Zoom
 {
-    [Mod("Zoom", "1.0", "Cyconi")]
+    [Mod("Zoom", "1.1", "Cyconi")]
     public class AppStart : UnityMod
     {
         public static UnityMod classInst { get; private set; }
