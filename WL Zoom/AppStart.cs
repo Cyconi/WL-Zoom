@@ -7,6 +7,10 @@ using System.Threading.Tasks;
 using UnityEngine;
 using WorldLoader.Attributes;
 using WorldLoader.Mods;
+using Il2CppGen.Runtime.Injection;
+using System.Reflection;
+using WorldLoader.HookUtils;
+using Object = UnityEngine.Object;
 
 namespace Zoom
 {
@@ -17,7 +21,7 @@ namespace Zoom
         public static Harmony harmInst { get; private set; }
 
         public static GameObject quickMenu;
-        internal float zoomFov = 20;        
+        internal float zoomFov = 20;
         public override void OnInject()
         {
             classInst = this;
@@ -52,7 +56,7 @@ namespace Zoom
             if (Input.GetKey(KeyCode.Mouse2))
                 zoomFov = 20;
             //if (Input.GetKey(KeyCode.Mouse3))
-                //Camera.main.fieldOfView = 60;
+            //Camera.main.fieldOfView = 60;
 
             try
             {
@@ -74,7 +78,8 @@ namespace Zoom
                     Camera.main.fieldOfView = Mathf.Lerp(Camera.main.fieldOfView, 60f, Time.deltaTime * 10f);
                     VRCPlayer.field_Internal_Static_VRCPlayer_0.GetComponent<LocomotionInputController>().field_Protected_MonoBehaviourPublicObSiBoSiVeBoQuVeBoSiUnique_0.field_Public_Single_1 = 0.05f; // NeckMouseRotator
                 }
-            } catch { }
+            }
+            catch { }
         }
     }
 }
